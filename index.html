@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Цветочный салон в Ленинске-Кузнецком</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
+		<link href="images/logo.jpg" rel="icon"/>
+		<link rel="stylesheet" href="uikit-3.7.3/css/uikit.min.css"/>
+        <script src="uikit-3.7.3/js/uikit.min.js"></script>
+        <script src="uikit-3.7.3/js/uikit-icons.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+		<link rel="stylesheet" type="text/css" href="styles/style.css"/>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;0,700;1,500;1,700&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<header>
+			<div class="inner">
+				<div class="inner_lg_nm">
+					<img src="images/rozalia.jpg" alt="Logo">
+						<div class="name">Цветочный салон в Ленинске-Кузнецком</div>
+							<nav class="uk-navbar uk-navbar-container">
+								<div class="uk-navbar-right">
+									<a class="uk-navbar-toggle" uk-navbar-toggle-icon uk-toggle="target: #my-id" href="#"></a>
+								</div>
+							</nav>
+							<!-- Это кнопка, закрывающая off-canvas -->
+							<a href="#my-id" uk-toggle></a>
+							<!-- Это сам off-canvas -->
+							<div id="my-id" uk-offcanvas>
+								<div class="uk-offcanvas-bar">
+									<button class="uk-offcanvas-close" type="button" uk-close></button>
+										<h3>Цветочный салон в Ленинске-Кузнецком</h3>
+											<a href="tel:+79253874517" ><h5>8 925 387 45-17</h5></a>
+												<a href="#" class="button">Перезвонить</a>
+								</div>	
+							</div>
+				</div>
+			<div class="inner_phn_rcll">
+					<div class="phone"><a href="tel:+79253874517" class="grey">8 925 387 45-17</a></div>
+						<a href="#" class="button">Перезвонить</a>
+				</div>	
+			</div>	
+		</header>
+		<article class="first">
+			<div class="main_block">
+				<div class="delivery">Бесплатная доставка по <br>Ленинску в течение часа!</div>
+					<div class="dream_bouquet">Подберем букет Вашей мечты!</div>
+						<a href="#kb" class="button_ch">Подобрать букет</a>
+				<!--<div class="star">-->
+					<!--<img  src="images/star 1.png" alt="Star">-->
+					<div class="star_txt">-10% <br>при заказе<br>с сайта</div>
+				<!--</div>-->
+			</div>
+		</article>
+		
+		<article class="advantage">
+		<div class="w980">
+			<div class="advant">Наши преимущества</div>
+			<div class="block1">
+				<div class="blck1"> 
+						<img  src="images/Rectangle 925.png" alt="Logo">
+							<div class="benefit">Только свежие цветы</div>
+				</div>
+				<div class="blck1">
+					<img  src="images/Rectangle 926.png" alt="Logo">
+						<div class="benefit">Профессиональное оформление</div>
+				</div>	
+				<div class="blck1">
+					<img  src="images/2_05.png" alt="Logo">
+						<div class="benefit">100% гарантия возврата</div>
+				</div>	
+				<div class="blck1">
+					<img  src="images/Rectangle 928.png" alt="Logo">
+						<div class="benefit">Самая быстрая доставка в любое место</div>
+				</div>
+				<div class="blck1">
+					<img  src="images/Rectangle 929.png" alt="Logo">
+						<div class="benefit">Самые выгодные цены</div>
+				</div>
+				<div class="blck1">
+					<img  src="images/Rectangle 930.png" alt="Logo">
+						<div class="benefit">Мы работаем 24 часа 7 дней в неделю</div>
+				</div>
+			</div>
+		</div>
+		</article>
+		
+		<article class="catalog">
+			<div class="w1220">
+				<div class="advant" id="kb">Каталог букетов</div>
+			<div class="block2">
+				<div class="elem1">
+					<div class="elem">
+						<img src="images/Rectangle 922.png" alt="pic">
+							<div class="price">1 999 руб/шт</div>
+						<a href="#" uk-toggle="target: #my-id1" class="bttn">Купить</a>
+						<!-- Модальное окно -->
+								<div id="my-id1" uk-modal>
+									<div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
+											<button class="uk-modal-close-default " type="button" uk-close></button>
+												<form action="mail.php" method="POST" target="frame">
+												<input type="text" name="user_name" placeholder="ВАШЕ ИМЯ">
+													<input type="text" name="user_phone" placeholder="ВАШ ТЕЛЕФОН">
+														<!--<input class="bttn" type="button" value="ОТПРАВИТЬ">-->
+														<button type="submit" class="bttn1">ОТПРАВИТЬ</button>
+															<input type="checkbox" name="agree" checked><label for="agree" class="notice1">Даю согласие на обработку персональных данных</label>
+												</form>
+									</div>
+								</div>
+					</div>
+				</div>
+			<div class="elem1">
+				<div class="elem">
+					<img src="images/Rectangle 922_1.png" alt="pic">
+					<div class="price">2 350 руб/шт</div>
+					<a href="#" uk-toggle="target: #my-id1" class="bttn">Купить</a>
+				</div>
+				</div>
+				<div class="elem1">
+				<div class="elem">
+					<img src="images/Rectangle 922_2.png" alt="pic">
+					<div class="price">2 035 руб/шт</div>
+					<a href="#" uk-toggle="target: #my-id1" class="bttn">Купить</a>
+				</div>
+				</div>
+				<div class="elem1">
+				<div class="elem">
+					<img src="images/Rectangle 922_3.png" alt="pic">
+					<div class="price">850 руб/шт</div>
+					<a href="#" uk-toggle="target: #my-id1" class="bttn">Купить</a>
+				</div>
+				</div>
+				<div class="elem1">
+				<div class="elem">
+					<img src="images/Rectangle 922_4.png" alt="pic">
+					<div class="price">789 руб/шт</div>
+					<a href="#" uk-toggle="target: #my-id1" class="bttn">Купить</a>
+				</div>
+				</div>
+				<div class="elem1">
+				<div class="elem">
+					<img src="images/Rectangle 922_5.png" alt="pic">
+					<div class="price">400 руб/шт</div>
+					<a href="#" uk-toggle="target: #my-id1" class="bttn">Купить</a>
+				</div>
+				</div>
+			</div>
+			</div>
+		</article>
+		<article class="slider w1220">
+		<div class="uk-position-relative uk-visible-toggle uk-dark"  uk-slider="center: true"  autoplay= "true" autoplay-interval="3000" >
+
+    <ul class="uk-slider-items uk-width-1-4">
+        <li>
+            <div class="uk-panel">
+                <img src="images/Rectangle 922.png" alt="">
+                <div class="uk-position-center uk-panel"><h1>1</h1></div>
+            </div>
+        </li>
+        <li> 
+            <div class="uk-panel">
+                <img src="images/Rectangle 922_1.png" alt="">
+                <div class="uk-position-center uk-panel"><h1>2</h1></div>
+            </div>
+        </li>
+        <li>
+            <div class="uk-panel">
+                <img src="images/Rectangle 922_2.png" alt="">
+                <div class="uk-position-center uk-panel"><h1>3</h1></div>
+            </div>
+        </li>
+        <li>
+            <div class="uk-panel">
+                <img src="images/Rectangle 922_3.png" alt="">
+                <div class="uk-position-center uk-panel"><h1>4</h1></div>
+            </div>
+        </li>
+        <li>
+            <div class="uk-panel">
+                <img src="images/Rectangle 922_4.png" alt="">
+                <div class="uk-position-center uk-panel"><h1>5</h1></div>
+            </div>
+        </li>
+        <li>
+            <div class="uk-panel">
+                <img src="images/Rectangle 922_5.png" alt="">
+                <div class="uk-position-center uk-panel"><h1>6</h1></div>
+            </div>
+        </li>
+    </ul>
+
+    <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+    <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+
+</div>
+		</article>
+		<article class="advan">
+		<div class="w1220">
+			<div class="advantage1">Остались вопросы?</div>
+			<div class="advantage2">Задайте их нам!</div>
+			<div class="fon">
+			<iframe name="frame" style="display:none;"></iframe>
+			<form action="mail.php" method="POST" target="frame">
+				<div class="form">
+					<input type="text" name="user_name" placeholder="ВАШЕ ИМЯ"><br>
+					<input type="text" name="user_phone" placeholder="ВАШ ТЕЛЕФОН"><br>
+					<!--<input class="bttn" type="button" value="ОТПРАВИТЬ">-->
+					<button type="submit" class="bttn">ОТПРАВИТЬ</button>
+					<div class="notice">Нажимая на кнопку, я принимаю условия <br>передачи информации</div>
+					
+				</div>
+				</form>
+				<img class="pic2" src="images/image 46.png" alt="pic">
+			</div>
+			
+		</div>
+		<img class="pic1" src="images/image 35.png" alt="pic">
+		
+		</article>
+		
+		<footer>
+			<div class="foot w1220">
+				<div class="inner_lg_nm">
+					<img  src="images/Rectangle 939.png" alt="Logo">
+					<div class="name">Цветочный салон <br>в Ленинске-Кузнецком</div>	
+				</div>
+				<div class="phone"><a href="tel:+79253874517" >8 925 387 45-17</a></div>
+			</div>
+			<div class="copy w1220">© 2021
+				<a href="#" uk-toggle="target: #my-id2" class="fname" uk-toggle>Политика конфиденциальности</a>
+				<!-- Модальное окно -->
+							 	<div id="my-id2" uk-modal>
+									<div class="uk-modal-dialog uk-modal-dialog1  uk-margin-auto-vertical ">
+											<button class="uk-modal-close-default " type="button" uk-close></button>
+											<div class="uk-modal-header">
+												<h3>Соглашение на обработку персональных данных</h3>
+											</div>
+										<div class="uk-modal-body" uk-overflow-auto>	 	
+										<h5>Я, субъект персональных данных, в соответствии с Федеральным законом от 27 июля 2006 года № 152 «О персональных данных» предоставляю согласие на обработку персональных данных, указанных мной в форме на сайте в сети «Интернет», владельцем которого является Оператор.
+
+Под персональными данными субъекта перcональных данных понимается нижеуказанная общая информация:<br><br>- ФИО, <br>- номер телефона.<br><br>
+
+Принимая настоящее Соглашение, я выражаю свою заинтересованность и полное согласие, что обработка персональных данных может включать в себя следующие действия:<br><br>- сбор,<br>- систематизацию,<br>- накопление,<br>- хранение,<br>- уточнение (обновление, изменение),<br>- использование,<br>- передачу (предоставление, доступ),<br>- блокирование,<br>- удаление,<br>- уничтожение, <br><br>осуществляемых как с использованием средств автоматизации (автоматизированная обработка), так и без использования таких средств (неавтоматизированная обработка).
+<br><br>
+Я понимаю и соглашаюсь с тем, что предоставленная информация, является полной, точной и достоверной; при предоставлении информации не нарушается действующее законодательство Российской Федерации, законные права и интересы третьих лиц; вся предоставленная информация заполнена мною в отношении себя лично; информация не относится к государственной, банковской и/или коммерческой тайне, информация не относится к информации о расовой и/или национальной принадлежности, политических взглядах, религиозных или философских убеждениях, не относится к информации о состоянии здоровья и интимной жизни.
+<br><br>
+Я понимаю и соглашаюсь с тем, что Оператор не проверяет достоверность персональных данных, предоставляемых мной, и не имеет возможности оценивать мою дееспособность и исходит из того, что я предоставляю достоверные персональные данные и поддерживаю такие данные в актуальном состоянии.
+<br>
+Согласие действует по достижении целей обработки или в случае утраты необходимости в достижении этих целей, если иное не предусмотрено федеральным законом.
+<br><br>
+Согласие может быть отозвано мною в любое время на основании моего письменного заявления.</h5>
+										</div>
+									</div>
+								</div>
+			</div>
+			
+		</footer>
+	</body>
+</html>
